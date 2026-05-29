@@ -1,0 +1,7 @@
+# Ignore R Project local interface environments
+.Rhistory
+.RData
+.Rproj.user/
+
+# Ignore ALL files inside the data folder (both raw and processed)
+data/

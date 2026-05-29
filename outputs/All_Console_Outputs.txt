@@ -1,0 +1,853 @@
+========================================================================
+   MASTER ANALYSIS PIPELINE: ACUSTIC-BIOMETRIC THESIS SANDBOX
+========================================================================
+Log Initialization Date/Time:  2026-05-28 19:18:17.56214 
+Computational Workspace Anchor:  C:/Users/preto/Documents/R Studio/thesis-redefining_the_definition 
+========================================================================
+
+
+------------------------------------------------------------------------
+[01/21] RUNNING: Step 1 -- Merge & De-deplicate.R
+------------------------------------------------------------------------
+Processed session: nan_2022-11-29 | Removed 6 duplicates.
+Processed session: nan_2022-12-1 | Removed 0 duplicates.
+Processed session: nan_2022-12-10 | Removed 177 duplicates.
+Processed session: nan_2022-12-11 | Removed 2965 duplicates.
+Processed session: nan_2022-12-12 | Removed 0 duplicates.
+Processed session: nan_2022-12-13 | Removed 0 duplicates.
+Processed session: nan_2022-12-14 | Removed 0 duplicates.
+Processed session: nan_2022-12-15 | Removed 0 duplicates.
+Processed session: nan_2022-12-16 | Removed 0 duplicates.
+Processed session: nan_2022-12-17 | Removed 0 duplicates.
+Processed session: nan_2022-12-19 | Removed 0 duplicates.
+Processed session: nan_2022-12-2 | Removed 0 duplicates.
+Processed session: nan_2022-12-20 | Removed 0 duplicates.
+Processed session: nan_2022-12-21 | Removed 0 duplicates.
+Processed session: nan_2022-12-22 | Removed 0 duplicates.
+Processed session: nan_2022-12-23 | Removed 0 duplicates.
+Processed session: nan_2022-12-24 | Removed 0 duplicates.
+Processed session: nan_2022-12-25 | Removed 0 duplicates.
+Processed session: nan_2022-12-26 | Removed 2276 duplicates.
+Processed session: nan_2022-12-27 | Removed 0 duplicates.
+Processed session: nan_2022-12-28 | Removed 0 duplicates.
+Processed session: nan_2022-12-29 | Removed 0 duplicates.
+Processed session: nan_2022-12-30 | Removed 0 duplicates.
+Processed session: nan_2022-12-31 | Removed 0 duplicates.
+Processed session: nan_2022-12-7 | Removed 0 duplicates.
+Processed session: nan_2022-12-8 | Removed 0 duplicates.
+Processed session: nan_2022-12-9 | Removed 0 duplicates.
+Processed session: nan_2023-1-1 | Removed 0 duplicates.
+Processed session: nan_2023-10-19 | Removed 0 duplicates.
+Processed session: nan_2023-10-26 | Removed 0 duplicates.
+Processed session: nan_2023-10-30 | Removed 0 duplicates.
+Processed session: nan_2023-11-6 | Removed 0 duplicates.
+Processed session: nan_2023-11-7 | Removed 0 duplicates.
+Processed session: nan_2023-8-13 | Removed 4 duplicates.
+Processed session: nan_2023-8-17 | Removed 0 duplicates.
+Processed session: nan_2023-8-18 | Removed 0 duplicates.
+Processed session: nan_2023-8-2 | Removed 0 duplicates.
+Processed session: nan_2023-8-3 | Removed 0 duplicates.
+Processed session: nan_2023-8-4 | Removed 0 duplicates.
+Processed session: nan_2023-8-5 | Removed 0 duplicates.
+Processed session: nan_2023-9-10 | Removed 0 duplicates.
+Processed session: nan_2023-9-12 | Removed 0 duplicates.
+Processed session: nan_2023-9-13 | Removed 0 duplicates.
+Processed session: nan_2023-9-17 | Removed 0 duplicates.
+Processed session: nan_2023-9-4 | Removed 0 duplicates.
+Processed session: nan_2023-9-5 | Removed 0 duplicates.
+Processed session: nan_2023-9-8 | Removed 0 duplicates.
+Processed session: nan_2023-9-9 | Removed 0 duplicates.
+Processed session: Other_2022-11-1 | Removed 0 duplicates.
+Processed session: Other_2022-11-11 | Removed 1274 duplicates.
+Processed session: Other_2022-11-12 | Removed 0 duplicates.
+Processed session: Other_2022-11-13 | Removed 2 duplicates.
+Processed session: Other_2022-11-2 | Removed 0 duplicates.
+Processed session: Other_2022-11-3 | Removed 0 duplicates.
+Processed session: Other_2022-11-4 | Removed 0 duplicates.
+Processed session: Other_2022-11-5 | Removed 104 duplicates.
+Processed session: Other_2022-11-6 | Removed 0 duplicates.
+Processed session: Reus_2022-11-19 | Removed 4274 duplicates.
+Processed session: Reus_2022-11-20 | Removed 40497 duplicates.
+Processed session: Reus_2022-11-21 | Removed 4288 duplicates.
+Processed session: Reus_2022-11-22 | Removed 29 duplicates.
+Processed session: Reus_2022-11-23 | Removed 36 duplicates.
+Processed session: Tarragona_2022-11-14 | Removed 0 duplicates.
+Processed session: Tarragona_2022-11-15 | Removed 0 duplicates.
+Processed session: Tarragona_2022-11-19 | Removed 0 duplicates.
+Processed session: Tarragona_2022-11-20 | Removed 500 duplicates.
+Processed session: Tarragona_2022-11-21 | Removed 987 duplicates.
+Processed session: Tarragona_2022-11-22 | Removed 5976 duplicates.
+Processed session: Tarragona_2022-11-23 | Removed 5256 duplicates.
+Processed session: Tarragona_2022-11-24 | Removed 8982 duplicates.
+Processed session: Tarragona_2022-11-25 | Removed 10493 duplicates.
+Processed session: Tarragona_2022-11-26 | Removed 7674 duplicates.
+Processed session: Tarragona_2022-11-27 | Removed 45742 duplicates.
+Processed session: Tarragona_2022-11-28 | Removed 233245 duplicates.
+Processed session: Tarragona_2022-11-29 | Removed 613310 duplicates.
+Processed session: Tarragona_2022-11-30 | Removed 223659 duplicates.
+Processed session: Tarragona_2022-11-7 | Removed 0 duplicates.
+Processed session: Tarragona_2022-11-9 | Removed 0 duplicates.
+Processed session: Tarragona_2022-12-1 | Removed 62896 duplicates.
+Processed session: Tarragona_2022-12-10 | Removed 443 duplicates.
+Processed session: Tarragona_2022-12-11 | Removed 2663 duplicates.
+Processed session: Tarragona_2022-12-12 | Removed 2637 duplicates.
+Processed session: Tarragona_2022-12-13 | Removed 6946 duplicates.
+Processed session: Tarragona_2022-12-14 | Removed 2929 duplicates.
+Processed session: Tarragona_2022-12-15 | Removed 8396 duplicates.
+Processed session: Tarragona_2022-12-16 | Removed 2665 duplicates.
+Processed session: Tarragona_2022-12-17 | Removed 2150 duplicates.
+Processed session: Tarragona_2022-12-18 | Removed 7774 duplicates.
+Processed session: Tarragona_2022-12-19 | Removed 3143 duplicates.
+Processed session: Tarragona_2022-12-2 | Removed 18108 duplicates.
+Processed session: Tarragona_2022-12-20 | Removed 3904 duplicates.
+Processed session: Tarragona_2022-12-21 | Removed 4076 duplicates.
+Processed session: Tarragona_2022-12-22 | Removed 6278 duplicates.
+Processed session: Tarragona_2022-12-23 | Removed 4415 duplicates.
+Processed session: Tarragona_2022-12-24 | Removed 6995 duplicates.
+Processed session: Tarragona_2022-12-25 | Removed 683 duplicates.
+Processed session: Tarragona_2022-12-26 | Removed 2149 duplicates.
+Processed session: Tarragona_2022-12-27 | Removed 0 duplicates.
+Processed session: Tarragona_2022-12-28 | Removed 0 duplicates.
+Processed session: Tarragona_2022-12-29 | Removed 790 duplicates.
+Processed session: Tarragona_2022-12-3 | Removed 24863 duplicates.
+Processed session: Tarragona_2022-12-30 | Removed 2111 duplicates.
+Processed session: Tarragona_2022-12-31 | Removed 0 duplicates.
+Processed session: Tarragona_2022-12-4 | Removed 10372 duplicates.
+Processed session: Tarragona_2022-12-5 | Removed 5331 duplicates.
+Processed session: Tarragona_2022-12-6 | Removed 2127 duplicates.
+Processed session: Tarragona_2022-12-7 | Removed 431 duplicates.
+Processed session: Tarragona_2022-12-8 | Removed 4749 duplicates.
+Processed session: Tarragona_2022-12-9 | Removed 6407 duplicates.
+Processed session: Tarragona_2023-1-1 | Removed 0 duplicates.
+Processed session: Tarragona_2023-1-2 | Removed 400 duplicates.
+Processed session: Tarragona_2023-1-3 | Removed 0 duplicates.
+Processed session: Tarragona_2023-1-4 | Removed 0 duplicates.
+Processed session: Tarragona_2023-1-5 | Removed 0 duplicates.
+Processed session: Tarragona_2023-1-6 | Removed 0 duplicates.
+Processed session: Tarragona_2023-1-7 | Removed 0 duplicates.
+Processed session: Tarragona_2023-1-8 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-1 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-10 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-11 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-12 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-13 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-14 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-15 | Removed 1188 duplicates.
+Processed session: Tarragona_2023-10-16 | Removed 11283 duplicates.
+Processed session: Tarragona_2023-10-17 | Removed 2552 duplicates.
+Processed session: Tarragona_2023-10-18 | Removed 3597 duplicates.
+Processed session: Tarragona_2023-10-19 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-2 | Removed 34 duplicates.
+Processed session: Tarragona_2023-10-20 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-21 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-22 | Removed 1778 duplicates.
+Processed session: Tarragona_2023-10-23 | Removed 1640 duplicates.
+Processed session: Tarragona_2023-10-24 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-25 | Removed 222 duplicates.
+Processed session: Tarragona_2023-10-26 | Removed 1448 duplicates.
+Processed session: Tarragona_2023-10-27 | Removed 2290 duplicates.
+Processed session: Tarragona_2023-10-28 | Removed 1983 duplicates.
+Processed session: Tarragona_2023-10-29 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-3 | Removed 2084 duplicates.
+Processed session: Tarragona_2023-10-30 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-31 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-4 | Removed 0 duplicates.
+Processed session: Tarragona_2023-10-5 | Removed 352 duplicates.
+Processed session: Tarragona_2023-10-6 | Removed 48 duplicates.
+Processed session: Tarragona_2023-10-7 | Removed 323 duplicates.
+Processed session: Tarragona_2023-10-8 | Removed 121 duplicates.
+Processed session: Tarragona_2023-10-9 | Removed 2657 duplicates.
+Processed session: Tarragona_2023-11-1 | Removed 1758 duplicates.
+Processed session: Tarragona_2023-11-2 | Removed 0 duplicates.
+Processed session: Tarragona_2023-7-30 | Removed 903 duplicates.
+Processed session: Tarragona_2023-7-31 | Removed 1639 duplicates.
+Processed session: Tarragona_2023-8-1 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-10 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-11 | Removed 933 duplicates.
+Processed session: Tarragona_2023-8-12 | Removed 1737 duplicates.
+Processed session: Tarragona_2023-8-13 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-14 | Removed 549 duplicates.
+Processed session: Tarragona_2023-8-15 | Removed 2265 duplicates.
+Processed session: Tarragona_2023-8-16 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-17 | Removed 1140 duplicates.
+Processed session: Tarragona_2023-8-18 | Removed 992 duplicates.
+Processed session: Tarragona_2023-8-19 | Removed 1981 duplicates.
+Processed session: Tarragona_2023-8-2 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-20 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-21 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-22 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-23 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-24 | Removed 723 duplicates.
+Processed session: Tarragona_2023-8-25 | Removed 1965 duplicates.
+Processed session: Tarragona_2023-8-26 | Removed 770 duplicates.
+Processed session: Tarragona_2023-8-27 | Removed 1972 duplicates.
+Processed session: Tarragona_2023-8-28 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-29 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-3 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-30 | Removed 681 duplicates.
+Processed session: Tarragona_2023-8-31 | Removed 1921 duplicates.
+Processed session: Tarragona_2023-8-4 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-5 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-6 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-7 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-8 | Removed 0 duplicates.
+Processed session: Tarragona_2023-8-9 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-1 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-10 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-11 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-12 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-13 | Removed 890 duplicates.
+Processed session: Tarragona_2023-9-14 | Removed 4191 duplicates.
+Processed session: Tarragona_2023-9-15 | Removed 2615 duplicates.
+Processed session: Tarragona_2023-9-16 | Removed 537 duplicates.
+Processed session: Tarragona_2023-9-17 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-18 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-19 | Removed 825 duplicates.
+Processed session: Tarragona_2023-9-2 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-20 | Removed 907 duplicates.
+Processed session: Tarragona_2023-9-21 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-22 | Removed 400 duplicates.
+Processed session: Tarragona_2023-9-23 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-24 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-25 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-26 | Removed 359 duplicates.
+Processed session: Tarragona_2023-9-27 | Removed 2398 duplicates.
+Processed session: Tarragona_2023-9-28 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-29 | Removed 2 duplicates.
+Processed session: Tarragona_2023-9-3 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-30 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-4 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-5 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-6 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-7 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-8 | Removed 0 duplicates.
+Processed session: Tarragona_2023-9-9 | Removed 0 duplicates.
+Processed session: Tarragona_province_2022-11-19 | Removed 6660 duplicates.
+Processed session: Tarragona_province_2022-11-20 | Removed 70752 duplicates.
+Processed session: Tarragona_province_2022-11-21 | Removed 18429 duplicates.
+Processed session: Tarragona_province_2022-11-22 | Removed 7632 duplicates.
+Processed session: Tarragona_province_2022-11-23 | Removed 5352 duplicates.
+Processed session: Tarragona_province_2022-11-24 | Removed 8982 duplicates.
+Processed session: Tarragona_province_2022-11-25 | Removed 10493 duplicates.
+Processed session: Tarragona_province_2022-11-26 | Removed 7674 duplicates.
+Processed session: Tarragona_province_2022-11-27 | Removed 48891 duplicates.
+Processed session: Tarragona_province_2022-11-28 | Removed 260675 duplicates.
+Processed session: Tarragona_province_2022-11-29 | Removed 636326 duplicates.
+Processed session: Tarragona_province_2022-11-30 | Removed 233238 duplicates.
+Processed session: Tarragona_province_2022-12-1 | Removed 73993 duplicates.
+Processed session: Tarragona_province_2022-12-10 | Removed 443 duplicates.
+Processed session: Tarragona_province_2022-12-11 | Removed 2663 duplicates.
+Processed session: Tarragona_province_2022-12-12 | Removed 2637 duplicates.
+Processed session: Tarragona_province_2022-12-13 | Removed 6946 duplicates.
+Processed session: Tarragona_province_2022-12-14 | Removed 2929 duplicates.
+Processed session: Tarragona_province_2022-12-15 | Removed 8396 duplicates.
+Processed session: Tarragona_province_2022-12-16 | Removed 2665 duplicates.
+Processed session: Tarragona_province_2022-12-17 | Removed 2150 duplicates.
+Processed session: Tarragona_province_2022-12-18 | Removed 7774 duplicates.
+Processed session: Tarragona_province_2022-12-19 | Removed 3143 duplicates.
+Processed session: Tarragona_province_2022-12-2 | Removed 18108 duplicates.
+Processed session: Tarragona_province_2022-12-20 | Removed 3904 duplicates.
+Processed session: Tarragona_province_2022-12-21 | Removed 4076 duplicates.
+Processed session: Tarragona_province_2022-12-22 | Removed 6278 duplicates.
+Processed session: Tarragona_province_2022-12-23 | Removed 4415 duplicates.
+Processed session: Tarragona_province_2022-12-24 | Removed 6995 duplicates.
+Processed session: Tarragona_province_2022-12-25 | Removed 683 duplicates.
+Processed session: Tarragona_province_2022-12-26 | Removed 2149 duplicates.
+Processed session: Tarragona_province_2022-12-27 | Removed 0 duplicates.
+Processed session: Tarragona_province_2022-12-28 | Removed 0 duplicates.
+Processed session: Tarragona_province_2022-12-29 | Removed 790 duplicates.
+Processed session: Tarragona_province_2022-12-3 | Removed 27347 duplicates.
+Processed session: Tarragona_province_2022-12-30 | Removed 2111 duplicates.
+Processed session: Tarragona_province_2022-12-31 | Removed 0 duplicates.
+Processed session: Tarragona_province_2022-12-4 | Removed 11798 duplicates.
+Processed session: Tarragona_province_2022-12-5 | Removed 6865 duplicates.
+Processed session: Tarragona_province_2022-12-6 | Removed 2127 duplicates.
+Processed session: Tarragona_province_2022-12-7 | Removed 431 duplicates.
+Processed session: Tarragona_province_2022-12-8 | Removed 4749 duplicates.
+Processed session: Tarragona_province_2022-12-9 | Removed 6407 duplicates.
+Processed session: Tarragona_province_2023-1-1 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-1-2 | Removed 400 duplicates.
+Processed session: Tarragona_province_2023-1-3 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-1-4 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-1-5 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-1-6 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-1-7 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-1-8 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-1 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-10 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-11 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-12 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-13 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-14 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-15 | Removed 1188 duplicates.
+Processed session: Tarragona_province_2023-10-16 | Removed 11283 duplicates.
+Processed session: Tarragona_province_2023-10-17 | Removed 2552 duplicates.
+Processed session: Tarragona_province_2023-10-18 | Removed 3597 duplicates.
+Processed session: Tarragona_province_2023-10-19 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-2 | Removed 34 duplicates.
+Processed session: Tarragona_province_2023-10-20 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-21 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-22 | Removed 1778 duplicates.
+Processed session: Tarragona_province_2023-10-23 | Removed 1640 duplicates.
+Processed session: Tarragona_province_2023-10-24 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-25 | Removed 222 duplicates.
+Processed session: Tarragona_province_2023-10-26 | Removed 1448 duplicates.
+Processed session: Tarragona_province_2023-10-27 | Removed 2290 duplicates.
+Processed session: Tarragona_province_2023-10-28 | Removed 1983 duplicates.
+Processed session: Tarragona_province_2023-10-29 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-3 | Removed 2084 duplicates.
+Processed session: Tarragona_province_2023-10-30 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-31 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-4 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-10-5 | Removed 352 duplicates.
+Processed session: Tarragona_province_2023-10-6 | Removed 48 duplicates.
+Processed session: Tarragona_province_2023-10-7 | Removed 323 duplicates.
+Processed session: Tarragona_province_2023-10-8 | Removed 121 duplicates.
+Processed session: Tarragona_province_2023-10-9 | Removed 2657 duplicates.
+Processed session: Tarragona_province_2023-11-1 | Removed 1758 duplicates.
+Processed session: Tarragona_province_2023-11-2 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-7-26 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-7-30 | Removed 903 duplicates.
+Processed session: Tarragona_province_2023-7-31 | Removed 1639 duplicates.
+Processed session: Tarragona_province_2023-8-1 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-10 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-11 | Removed 933 duplicates.
+Processed session: Tarragona_province_2023-8-12 | Removed 1737 duplicates.
+Processed session: Tarragona_province_2023-8-13 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-14 | Removed 549 duplicates.
+Processed session: Tarragona_province_2023-8-15 | Removed 2265 duplicates.
+Processed session: Tarragona_province_2023-8-16 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-17 | Removed 1140 duplicates.
+Processed session: Tarragona_province_2023-8-18 | Removed 992 duplicates.
+Processed session: Tarragona_province_2023-8-19 | Removed 1981 duplicates.
+Processed session: Tarragona_province_2023-8-2 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-20 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-21 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-22 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-23 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-24 | Removed 723 duplicates.
+Processed session: Tarragona_province_2023-8-25 | Removed 1965 duplicates.
+Processed session: Tarragona_province_2023-8-26 | Removed 770 duplicates.
+Processed session: Tarragona_province_2023-8-27 | Removed 1972 duplicates.
+Processed session: Tarragona_province_2023-8-28 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-29 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-3 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-30 | Removed 681 duplicates.
+Processed session: Tarragona_province_2023-8-31 | Removed 1921 duplicates.
+Processed session: Tarragona_province_2023-8-4 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-5 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-6 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-7 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-8 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-8-9 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-1 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-10 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-11 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-12 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-13 | Removed 890 duplicates.
+Processed session: Tarragona_province_2023-9-14 | Removed 4191 duplicates.
+Processed session: Tarragona_province_2023-9-15 | Removed 2615 duplicates.
+Processed session: Tarragona_province_2023-9-16 | Removed 537 duplicates.
+Processed session: Tarragona_province_2023-9-17 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-18 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-19 | Removed 825 duplicates.
+Processed session: Tarragona_province_2023-9-2 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-20 | Removed 907 duplicates.
+Processed session: Tarragona_province_2023-9-21 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-22 | Removed 400 duplicates.
+Processed session: Tarragona_province_2023-9-23 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-24 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-25 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-26 | Removed 359 duplicates.
+Processed session: Tarragona_province_2023-9-27 | Removed 2398 duplicates.
+Processed session: Tarragona_province_2023-9-28 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-29 | Removed 2 duplicates.
+Processed session: Tarragona_province_2023-9-3 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-30 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-4 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-5 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-6 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-7 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-8 | Removed 0 duplicates.
+Processed session: Tarragona_province_2023-9-9 | Removed 0 duplicates.
+Finalizing global merge...
+Total Raw Rows Processed:  9872403 
+Total Unique Rows Saved:    3530851 
+Total Duplicates Removed:   6341552 
+File saved to: C:/Users/preto/Documents/R Studio/thesis-redefining_the_definition/data/processed/step_1_merged.csv 
+
+--- Step 1 Complete ---
+
+------------------------------------------------------------------------
+[02/21] RUNNING: Step 2 -- Ghost Removal.R
+------------------------------------------------------------------------
+Loading merged data from Step 1...
+Removing ghost rows...
+Flagging hard conflicts...
+Saving cleansed data and audit...
+
+--- STEP 2: AUDIT COMPLETE ---
+1. Input Rows (from Step 1):  3530851 
+2. Ghosted Data Removed:     1162818 
+3. Hard Conflicts Found:      146 
+Cleansed file saved to:       C:/Users/preto/Documents/R Studio/thesis-redefining_the_definition/data/processed/step_2_cleansed_merged.csv 
+Audit report saved to:        C:/Users/preto/Documents/R Studio/thesis-redefining_the_definition/data/processed/step_2_hard_conflicts_audit.csv 
+
+--- Step 2 Complete ---
+
+------------------------------------------------------------------------
+[03/21] RUNNING: Step 3 -- Conflict Resolve.R
+------------------------------------------------------------------------
+
+--- STEP 3: CONFLICT RESOLUTION ---
+Loading cleansed data from Step 2...
+Standardizing vector classes safely...
+Resolving hard conflicts and squashing to unique timestamps...
+Processed 1360347 groups out of 2367960. 57% done. Time elapsed: 3s. ETA: 2s.Processed 1796436 groups out of 2367960. 76% done. Time elapsed: 4s. ETA: 1s.Processed 2256019 groups out of 2367960. 95% done. Time elapsed: 5s. ETA: 0s.Processed 2367960 groups out of 2367960. 100% done. Time elapsed: 5s. ETA: 0s.
+Saving final resolved dataset...
+
+--- STEP 3: RESOLUTION AUDIT REPORT ---
+1. Total Rows Before Resolution:  2368033 
+2. Total Rows After Resolution:   2367960 
+3. Total Redundant Rows Removed:  73 
+---------------------------------------
+Final Output saved to:            C:/Users/preto/Documents/R Studio/thesis-redefining_the_definition/data/processed/step_3_resolved_merged.csv 
+
+--- Step 3 Complete ---
+
+------------------------------------------------------------------------
+[04/21] RUNNING: Step 4 -- Senor Data & Temporal Frequency Check.R
+------------------------------------------------------------------------
+
+--- STEP 4: GLOBAL SENSOR INTEGRITY & TEMPORAL CHECK ---
+--- DATA FLOW START ---
+Initial Observations: 2367960 
+Initial Recording Sessions (UUIDs): 1204 
+
+Starting Global Integrity Audit...
+Running stabilized temporal density audit...
+
+--- DATA FLOW SUMMARY ---
+Observations at Start:     2367960 
+Observations Filtered Out: 1474149  ( 62.3 %)
+Observations Kept:          893811 
+
+UUIDs at Start:            1204 
+UUIDs Filtered Out:        850 
+UUIDs Kept (Valid):        354 
+
+Step 4 Complete.
+
+------------------------------------------------------------------------
+[05/21] RUNNING: Step 5 -- Participant Mapping & Reconciliation.R
+------------------------------------------------------------------------
+
+--- STEP 5: IDENTITY MAPPING & RECONCILIATION ---
+Loading validated global corpus...
+
+======================================================
+                DATA RECONCILIATION REPORT            
+======================================================
+PARTICIPANTS
+Empty Metadata Files:                      77 
+Participants Matched but Invalidated:      28 
+Active Participants (Final Sample):        16 
+Total Participants Accounted For:          121 
+------------------------------------------------------
+RECORDED SESSIONS (UUIDs)
+Sessions Mapped to Participants:           275 
+Orphaned Sessions (Unattributed):          79 
+Total Validated Sessions:                  354 
+------------------------------------------------------
+OBSERVATIONS
+Attributed Observations:                   695072 
+Unattributed Observations:                 198739 
+Total Consolidated Observations:           893811 
+======================================================
+
+Step 5 Complete.
+
+------------------------------------------------------------------------
+[06/21] RUNNING: Step 5a -- Temporal Frequency Histogram.R
+------------------------------------------------------------------------
+
+--- STEP 5a TEMPORAL FREQUENCY HISTOGRAM ---
+
+------------------------------------------------------------------------
+[07/21] RUNNING: Step 6 -- Temporal Trimming & Buffering.R
+------------------------------------------------------------------------
+
+--- STEP 6: TEMPORAL TRIMMING & BUFFERING ---
+Loading mapped data from Step 5...
+Performing surgical trim on validated sessions safely...
+
+--- STEP 6: FINAL TRIMMING SUMMARY ---
+Original Row Count:  893811 
+Trimmed Row Count:   719428 
+Rows Removed (Wake): 174383 
+Total Sessions Kept: 354 
+Total Participants:  16 
+
+Final Analytical Dataset saved to: C:/Users/preto/Documents/R Studio/thesis-redefining_the_definition/data/processed/step_6_TRIMMED_ANALYSIS_DATASET.csv 
+
+--- Step 6 Complete ---
+
+------------------------------------------------------------------------
+[08/21] RUNNING: Step 6a -- Sleep Statistics.R
+------------------------------------------------------------------------
+
+--- STEP 6a: SLEEP STATISTICS ---
+[1] "--- Final Sleep Metrics Table ---"
+                             Metric  Mean    SD
+ Nightly Total Recording Time (hrs)  6.25  2.28
+         Actual Sleeping Time (hrs)  5.85  2.17
+       Overall Sleep Efficiency (%) 93.61  8.06
+                    Light Sleep (%) 59.60 11.33
+                     Deep Sleep (%) 16.21 10.71
+                      REM Sleep (%) 17.81  8.36
+         Wake After Sleep Onset (%)  6.39  8.06
+
+--- Verification Summary ---
+Total Sessions Analyzed:        354
+Cumulative Recording Time:      2212.59 hours
+Cumulative Sleeping Time:       2071.3 hours
+Check (Light+Deep+REM+Wake %): 100 %
+
+--- Step 6a Complete ---
+
+------------------------------------------------------------------------
+[09/21] RUNNING: Step 7 -- Z-score Algorithm.R
+------------------------------------------------------------------------
+
+--- STEP 7: Z-SCORE ALGORITHM ---
+Calculating Global and Rolling Z-scores...
+
+--- Z-SCORE SENSITIVITY & CHARACTERIZATION ---
+    Method Threshold Density_ObsHr Freq_EventsHr Avg_Dur_Sec Obs_Per_Event
+    <char>     <num>         <num>         <num>       <num>         <num>
+1:  Global       2.5          7.46          3.31       29.45          2.26
+2:  Global       3.0          4.92          2.37       26.51          2.08
+3:  Global       4.0          2.41          1.30       22.87          1.85
+4: Rolling       2.5          9.54          7.20       16.72          1.32
+5: Rolling       3.0          5.45          4.62       13.95          1.18
+6: Rolling       4.0          0.00          0.00        0.00          0.00
+
+Master dataset successfully saved with Z-score flags inside data/processed/.
+
+--- Step 7 Complete ---
+
+------------------------------------------------------------------------
+[10/21] RUNNING: Step 8 -- L90 Algorithm.R
+------------------------------------------------------------------------
+
+--- STEP 8: L90 ALGORITHM ---
+Calculating Rolling L90 baselines ...
+
+--- L90 SENSITIVITY & CHARACTERIZATION ---
+   Method Threshold Density_ObsHr Freq_EventsHr Avg_Dur_Sec Obs_Per_Event
+   <char>    <char>         <num>         <num>       <num>         <num>
+1:   L90+      10dB          8.60          3.11       36.21          2.77
+2:   L90+      15dB          2.97          1.09       33.98          2.73
+3:   L90+      20dB          1.20          0.52       28.86          2.32
+
+Step 8 Master saved successfully with Z-score and L90 flags inside data/processed/.
+
+--- Step 8 Complete ---
+
+------------------------------------------------------------------------
+[11/21] RUNNING: Step 9 -- Rise Time Algorithm.R
+------------------------------------------------------------------------
+
+--- STEP 9: RISE TIME ALGORITHM ---
+Calculating 11s Rise Time (Delta dB between consecutive samples)...
+
+--- RISE TIME SENSITIVITY & CHARACTERIZATION ---
+      Method  Threshold Density_ObsHr Freq_EventsHr Avg_Dur_Sec Obs_Per_Event
+      <char>     <char>         <num>         <num>       <num>         <num>
+1: Rise Time  >5dB Jump         11.32          5.30       32.53          2.13
+2: Rise Time >10dB Jump          1.94          1.26       20.41          1.54
+3: Rise Time >15dB Jump          0.48          0.33       19.78          1.45
+
+Step 9 Master saved successfully with flags of all 3 methods.
+
+--- Step 9 Complete ---
+
+------------------------------------------------------------------------
+[12/21] RUNNING: Step 10 -- Heart Rate Spike Predication.R
+------------------------------------------------------------------------
+--- STEP 10: Running HR Predictive Validity Analysis (with Confidence Intervals)
+Defining Heart Rate Spike window (22 seconds)...
+Calculating Odds Ratios and CIs for 12 detection thresholds...
+
+--- HEART RATE VALIDITY SHOWDOWN RESULTS (with CI) ---
+        Flag Events Hit_Rate_Pct Odds_Ratio OR_Lower OR_Upper P_Value
+      <char>  <int>        <num>      <num>    <num>    <num>  <char>
+ 1: flag_R30  10752         19.4       5.27     5.01     5.53   <.001
+ 2: flag_G40   4169         19.0       4.96     4.59     5.36   <.001
+ 3: flag_R25  18984         15.5       4.08     3.92     4.26   <.001
+ 4: flag_G30   8783         14.7       3.66     3.45     3.89   <.001
+ 5: flag_G25  13685         12.5       3.06     2.90     3.22   <.001
+ 6: flag_D15    788         11.3       2.64     2.12     3.29   <.001
+ 7: flag_D10   3398         11.1       2.59     2.33     2.89   <.001
+ 8: flag_L15   5201          9.1       2.10     1.91     2.31   <.001
+ 9: flag_D05  21489          8.9       2.08     1.98     2.19   <.001
+10: flag_L10  15936          8.8       2.06     1.94     2.17   <.001
+11: flag_L20   2001          8.9       2.03     1.74     2.36   <.001
+
+Step 10 Complete.
+
+------------------------------------------------------------------------
+[13/21] RUNNING: Step 11 -- Sleep Stage Transition Predication.R
+------------------------------------------------------------------------
+
+--- STEP 11: SLEEP STAGE VALIDITY ---
+Loading mapped data from Step 10...
+Calculating sleep stage transitions (55s window)...
+Running Logistic Regression with CIs for Sleep Stage Transitions...
+        Flag Events Hit_Rate_Pct Odds_Ratio OR_Lower OR_Upper P_Value
+      <char>  <int>        <num>      <num>    <num>    <num>  <char>
+ 1: flag_R30  10743          2.8       1.64     1.46     1.84   <.001
+ 2: flag_R25  18969          2.5       1.49     1.36     1.64   <.001
+ 3: flag_G40   4154          2.5       1.47     1.21     1.79   <.001
+ 4: flag_G30   8758          2.4       1.43     1.25     1.64   <.001
+ 5: flag_D15    786          2.3       1.34     0.84     2.14   0.218
+ 6: flag_G25  13657          2.2       1.29     1.15     1.45   <.001
+ 7: flag_D05  21465          2.2       1.27     1.16     1.39   <.001
+ 8: flag_D10   3391          2.2       1.26     1.00     1.59   0.051
+ 9: flag_L10  15914          2.0       1.15     1.03     1.29   0.015
+10: flag_L20   1995          2.0       1.14     0.83     1.57   0.415
+11: flag_L15   5187          1.9       1.10     0.90     1.35   0.340
+
+Step 11 Complete.
+
+------------------------------------------------------------------------
+[14/21] RUNNING: Step 12 -- Graphic Comparison of 3 Algoirthms.R
+------------------------------------------------------------------------
+
+--- STEP 12: GRAPHIC COMPARISON OF 3 ALGORITHMS ---
+Matrix charts exported safely to:
+ => C:/Users/preto/Documents/R Studio/thesis-redefining_the_definition/outputs/figures/step_12_final_thesis_impact_matrix.png 
+Step 12 Complete.
+
+------------------------------------------------------------------------
+[15/21] RUNNING: Step 13 -- All Descriptive Statistics.R
+------------------------------------------------------------------------
+
+--- STEP 13: ALL DESCRIPTIVE STATISTICS ---
+
+--- STUDY-WIDE CUMULATIVE SCALE ---
+Total Sleep Time (TST) used for density: 2058.37 hours
+
+--- AMBIENT NOISE ENVIRONMENT (MEAN PER NIGHT) ---
+                        Metric Value
+                        <char> <num>
+1:            Mean L10 (Peaks) 38.20
+2: Mean L50 (Typical Loudness) 34.68
+3: Mean L90 (Background Floor) 33.47
+4:  Mean Nightly Dynamic Range  4.73
+
+--- ALGORITHM PERFORMANCE: FLAGS vs INCIDENTS ---
+    Algorithm Density_ObsHr Freq_EventsHr Avg_Dur_Sec Obs_Per_Event
+       <char>         <num>         <num>       <num>         <num>
+ 1:  flag_G25          7.97          4.40       19.92          1.81
+ 2:  flag_G30          5.25          3.03       19.10          1.74
+ 3:  flag_G40          2.58          1.58       17.93          1.63
+ 4:  flag_R25         10.19          8.49       13.20          1.20
+ 5:  flag_R30          5.82          5.16       12.40          1.13
+ 6:  flag_R40          0.00          0.00        0.00          0.00
+ 7:  flag_L10          9.19          4.32       23.39          2.13
+ 8:  flag_L15          3.17          1.43       24.50          2.23
+ 9:  flag_L20          1.28          0.66       21.41          1.95
+10:  flag_D05         12.09          8.32       15.98          1.45
+11:  flag_D10          2.07          1.61       14.16          1.29
+12:  flag_D15          0.51          0.43       12.94          1.18
+
+--- PHYSIOLOGICAL RESPONSE INDICATORS ---
+                       Metric  Mean    SD
+                       <char> <num> <num>
+1:      Mean Heart Rate (BPM) 63.13  9.37
+2:      HR Standard Deviation  4.44  1.50
+3: Stage Transitions per Hour  2.92  0.82
+
+--- Summaries exported to data/processed/ ---
+
+STEP 13 REPORT COMPLETE
+
+------------------------------------------------------------------------
+[16/21] RUNNING: Step 14 -- Individual Sensitivity Martrix.R
+------------------------------------------------------------------------
+
+--- STEP 14: AGGREGATING SENSITIVITY BY PARTICIPANT (OLD METHOD) ---
+    participant_id HR_RR_R25 Brain_RR_R25 Mean_Baseline_HR_Hr Mean_Baseline_Shifts_Hr
+            <char>     <num>        <num>               <num>                   <num>
+ 1:              1      3.70         2.91            7.771280                5.764244
+ 2:              2      1.87         1.25            2.466665                5.151914
+ 3:              3      3.26         1.80            5.164382                6.472835
+ 4:              4      1.25         0.50           11.333538                6.616921
+ 5:              5      2.49         1.15            2.600461                5.917997
+ 6:              6      3.99         1.56            5.563677                5.059249
+ 7:              7      2.24         0.79            4.806248                6.699026
+ 8:              8      5.20         1.55            6.505555                5.383699
+ 9:              9      4.21         1.74            6.630990                5.993235
+10:             10      6.17         0.00            5.815582                2.408465
+11:             11      5.26         2.09            8.571407                4.935902
+12:             12      2.41         0.55            2.921697                5.476088
+13:             13      4.71         2.09            4.337567                6.138836
+14:             14      2.91         1.43            3.047758                7.163569
+15:             15      1.21         0.80            9.400406                5.921501
+16:             16      5.36         1.40            6.181932                5.176670
+    Baseline_Decoupling_Ratio
+                        <num>
+ 1:                      1.35
+ 2:                      0.48
+ 3:                      0.80
+ 4:                      1.71
+ 5:                      0.44
+ 6:                      1.10
+ 7:                      0.72
+ 8:                      1.21
+ 9:                      1.10
+10:                      2.40
+11:                      1.73
+12:                      0.53
+13:                      0.71
+14:                      0.42
+15:                      1.58
+16:                      1.19
+
+Step 14 Complete. Historical baseline variables re-aligned successfully.
+
+------------------------------------------------------------------------
+[17/21] RUNNING: Step 15 -- Clustering Maping and Phenotype Comparison.R
+------------------------------------------------------------------------
+
+--- STEP 15: CLUSTERING BY STANDARDIZED CARDIOVASCULAR vs. CORTICAL EVENTS ---
+                         Phenotype     N Avg_Cardiac_RR Avg_Cortical_RR Baseline_Decoupling
+                            <char> <int>          <num>           <num>               <num>
+1:       Type A: Stable Responders     7           2.05            0.92                0.84
+2:  Type B: Decoupled (Heart Only)     1           6.17            0.00                2.40
+3: Type C: Fragile High-Responders     8           4.46            1.89                1.15
+
+Step 15 Complete.
+
+------------------------------------------------------------------------
+[18/21] RUNNING: Step 16 -- Clinic Sleep Quality vs Phenotype.R
+------------------------------------------------------------------------
+
+--- STEP 16: CLINICAL SLEEP QUALITY VS. PHENOTYPE ---
+Aggregating clinical metrics for 16 participants...
+
+--- CLINICAL IMPACT BY SENSITIVITY PHENOTYPE ---
+                         Phenotype     N Mean_Deep_Sleep_Pct Mean_Deep_And_REM_Sleep_Pct
+                            <char> <int>               <num>                       <num>
+1:       Type A: Stable Responders     7                15.2                        37.6
+2:  Type B: Decoupled (Heart Only)     1                13.8                        31.8
+3: Type C: Fragile High-Responders     8                16.1                        35.9
+   Avg_Shifts_Per_Hr Group_Cardiac_RR Group_Cortical_RR Avg_Baseline_Decoupling
+               <num>            <num>             <num>                   <num>
+1:              5.92             2.05              0.92                    0.84
+2:              2.24             6.17              0.00                    2.40
+3:              5.67             4.46              1.89                    1.15
+
+Summaries exported successfully to data/processed/
+
+Step 16 Complete.
+
+------------------------------------------------------------------------
+[19/21] RUNNING: Step 17 -- ISRUC Reference Baseline & Decouopling Ratio.R
+------------------------------------------------------------------------
+
+--- STEP 17: ISRUC REFERENCE BASELINE & DECOUPLING RATIO ---
+
+--- STEP 17: ISRUC HEALTHY REFERENCE SUMMARY ---
+    participant_id Total_Hrs HR_Spikes_Hr Shifts_Hr Decoupling_Ratio
+            <char>     <num>        <num>     <num>            <num>
+ 1:             P1      7.95        19.87      6.29             3.16
+ 2:            P10      6.63        27.44      8.14             3.37
+ 3:             P2      7.84        19.13      6.50             2.94
+ 4:             P3      6.87        13.40      7.28             1.84
+ 5:             P4      6.62        16.47      5.44             3.03
+ 6:             P5      7.87        11.44      6.48             1.76
+ 7:             P6      7.11        16.46      6.33             2.60
+ 8:             P7      6.78        19.75      6.78             2.91
+ 9:             P8      8.33        10.08      4.08             2.47
+10:             P9      8.07        21.55      7.93             2.72
+
+Mean Spontaneous HR Spikes/Hr:    17.559
+Mean Spontaneous Shifts/Hr:       6.525
+Mean Baseline Decoupling Ratio:   2.68 
+
+--- STEP 17 COMPLETE ---
+
+------------------------------------------------------------------------
+[20/21] RUNNING: Step 18 -- Soundless Sessional Baseline.R
+------------------------------------------------------------------------
+
+--- STEP 18: SOUNDLESS SESSIONAL BASELINE ---
+Loading final mapped data from Step 11...
+Calculating spontaneous sessional baseline metrics...
+
+--- STEP 18: SOUNDLESS PARTICIPANT BASELINE SUMMARY ---
+    participant_id Mean_Baseline_HR_Hr Mean_Baseline_Shifts_Hr Baseline_Decoupling_Ratio
+            <char>               <num>                   <num>                     <num>
+ 1:              1            7.771818                5.764091                      1.35
+ 2:              2            2.467000                5.152000                      0.48
+ 3:              3            5.163750                6.473750                      0.80
+ 4:              4           11.333000                6.618000                      1.71
+ 5:              5            2.601000                5.918500                      0.44
+ 6:              6            5.564286                5.060000                      1.10
+ 7:              7            4.806216                6.699189                      0.72
+ 8:              8            6.506154                5.383846                      1.21
+ 9:              9            6.631154                5.993462                      1.10
+10:             10            5.815000                2.405000                      2.41
+11:             11            8.571000                4.935000                      1.73
+12:             12            2.922500                5.476071                      0.53
+13:             13            4.337647                6.139412                      0.71
+14:             14            3.048571                7.162857                      0.43
+15:             15            9.400000                5.921111                      1.58
+16:             16            6.182667                5.177333                      1.19
+
+Mean Spontaneous HR Spikes/Hr (Soundless):  5.82011
+Mean Spontaneous Shifts/Hr (Soundless):     5.642476
+Mean Baseline Decoupling Ratio (Soundless): 1.093125 
+
+Sessional baselines saved to data/processed/
+
+Step 18 Complete.
+
+------------------------------------------------------------------------
+[21/21] RUNNING: Step 19 -- Temporal Window Sensitivity Analysis.R
+------------------------------------------------------------------------
+
+--- STEP 19: TEMPORAL WINDOW SENSITIVITY ANALYSIS ---
+Reading data frame from: C:/Users/preto/Documents/R Studio/thesis-redefining_the_definition/data/processed/step_11_FINAL_MAPPED_DATA.csv ...
+Calculating instantaneous cortical and autonomic events safely...
+Executing independent, protocol-aligned sensitivity tests...
+
+============================================================================
+=== PROTOCOL-ALIGNED TEMPORAL SENSITIVITY METRICS ===
+============================================================================
+  Step HR_Window_Sec HR_Spike_OR HR_Spike_Lower HR_Spike_Upper Stage_Window_Sec Stage_OR
+ <int>         <num>       <num>          <num>          <num>            <num>    <num>
+     1            11       6.513          6.183          6.859               33    1.205
+     2            22       4.899          4.692          5.115               44    1.165
+     3            33       3.691          3.545          3.843               55    1.144
+     4            44       3.042          2.927          3.162               66    1.131
+     5            55       2.670          2.572          2.772               77    1.121
+ Stage_CI_Lower Stage_CI_Upper
+          <num>          <num>
+          1.098          1.323
+          1.072          1.265
+          1.061          1.232
+          1.056          1.212
+          1.051          1.195
+----------------------------------------------------------------------------
+Sensitivity metrics exported successfully to data/processed.
+
+Step 19 Complete.
+
+=======================================
+ ALL SCRIPTS WERE EXECUTED SUCCESSFULY
+=======================================
+Master Console Log Exported to:
+ =>  C:/Users/preto/Documents/R Studio/thesis-redefining_the_definition/outputs/All_Console_Outputs.txt 
